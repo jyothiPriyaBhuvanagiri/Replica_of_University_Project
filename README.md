@@ -40,11 +40,11 @@ Perform Analysis and Visualization: Run the main analysis script to compare the 
 bash
 Copy code
 python graph.py
-This script fetches the titles from both tables, counts occurrences of the keywords "Blockchain" and "Data Science," and displays a bar chart.
+This script fetches the titles from both tables, counts occurrences of the keywords "Blockchain", "Data Science", "AI" and displays a bar chart.
 Interpret Results: The bar chart compares the frequency of Blockchain and Data Science mentions across different research categories. This helps to understand which topic is more prominently discussed.
 
 Output
-The output of graph.py is a bar chart comparing the keyword occurrences between "Blockchain" and "Data Science" and "AI" topics.
+The output of graph.py is a bar chart comparing the keyword occurrences between "Blockchain", "Data Science","AI" topics.
 
 Example bar chart:
 
