@@ -1,7 +1,4 @@
-
 import sqlite3
-
-
 def test_query():
     conn = sqlite3.connect('../analysis.db')  # Use the correct path to your database
     cursor = conn.cursor()
