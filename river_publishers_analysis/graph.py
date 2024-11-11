@@ -1,6 +1,6 @@
 import sqlite3
 def test_query():
-    conn = sqlite3.connect('../analysis.db')  # Use the correct path to your database
+    conn = sqlite3.connect('../analysis.db')
     cursor = conn.cursor()
 
     # Test the query to check if we can fetch titles
