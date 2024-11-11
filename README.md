@@ -36,9 +36,7 @@ Set Up Database: Ensure the database your_database.db is created and accessible.
 ```
 
 
-## Perform Analysis and Visualization: Run the main analysis script to compare the prevalence of Blockchain and Data Science topics:
-Copy code
-python graph.py
+### Perform Analysis and Visualization: Run the main analysis script to compare the prevalence of Blockchain and Data Science topics:
 
 ## This script fetches the titles from both tables, counts occurrences of the keywords "Blockchain", "Data Science", "AI" and displays a bar chart.
 Interpret Results: The bar chart compares the frequency of Blockchain and Data Science mentions across different research categories. This helps to understand which topic is more prominently discussed.
@@ -50,7 +48,9 @@ Example bar chart:
 ![This is the sample graph](river_publishers_analysis/sample_analysis_graph.png)
 
 ## Fork the repository.
+```bash
 Create a new branch (git checkout -b feature-name).
 Commit your changes (git commit -m "Add feature").
 Push to the branch (git push origin feature-name).
 Create a Pull Request.
+```
