@@ -8,10 +8,7 @@ url = 'https://journals.riverpublishers.com/index.php/JWE/issue/view/1919'
 
 # Fetch the page content
 response = requests.get(url)
-
-# Check if the request was successful (status code 200)
 if response.status_code == 200:
-    # Parse the page content
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # Find all <a> tags with an id attribute (for titles)
