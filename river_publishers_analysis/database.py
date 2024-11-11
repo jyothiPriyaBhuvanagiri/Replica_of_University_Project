@@ -13,7 +13,7 @@ def store_data_to_sql(df, table_name):
 
 
 def fetch_titles_from_table(table_name):
-    conn = sqlite3.connect('../analysis.db')  # Use the correct path to your database
+    conn = sqlite3.connect('../analysis.db')
     query = f"SELECT Research_Papers_Title FROM {table_name};"
 
     df = pd.read_sql(query, conn)
@@ -38,7 +38,6 @@ def count_keywords(titles, keywords):
     return keyword_counts
 
 
-# Define the keywords we're interested in
 keywords = ['Blockchain', 'AI', "Data Science", "Deep Learning"]
 
 # Count occurrences of keywords in both tables
@@ -68,6 +67,4 @@ plt.ylabel('Count of Occurrences')
 plt.xlabel('Table')
 plt.xticks(rotation=0)
 plt.tight_layout()
-
-# Show the plot
 plt.show()
